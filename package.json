@@ -1,0 +1,16 @@
+{
+  "name": "NodeTeleBots",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.59.0",
+    "vercel": "^28.2.0"
+  },
+  "devDependencies": {
+    "ngrok": "^4.3.3"
+  },
+  "scripts": {
+    "ngrok": "ngrok http 3000"
+  }
+}
